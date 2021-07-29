@@ -95,7 +95,7 @@ function draw() {
   }
   
   //creating continous opponent players
-  var select_oppPlayer = Math.round(random(1,4));
+  var select_oppPlayer = Math.round(random(1,3));
   
   if (World.frameCount % 150 == 0) {
     if (select_oppPlayer == 1) {
